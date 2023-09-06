@@ -1277,7 +1277,7 @@
 #define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
 
 // Force the use of the probe for Z-axis homing
-//#define USE_PROBE_FOR_Z_HOMING
+#define USE_PROBE_FOR_Z_HOMING
 
 /**
  * Z_MIN_PROBE_PIN
@@ -1308,7 +1308,7 @@
  * Use G29 repeatedly, adjusting the Z height at each point with movement commands
  * or (with LCD_BED_LEVELING) the LCD controller.
  */
-//#define PROBE_MANUALLY
+#define PROBE_MANUALLY
 
 /**
  * A Fix-Mounted Probe either doesn't deploy or needs manual deployment.
@@ -1694,7 +1694,7 @@
 // @section geometry
 
 // The size of the printable area
-#define X_BED_SIZE 295
+#define X_BED_SIZE 285
 #define Y_BED_SIZE 580
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
